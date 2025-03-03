@@ -6,4 +6,7 @@
    
   <script setup>
   defineProps({ blok: Object })
+
+  console.log('page component')
+  
   </script>z

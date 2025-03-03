@@ -6,8 +6,15 @@ export default defineNuxtConfig({
     [
       '@storyblok/nuxt',
       {
-        accessToken: '1234',
+        accessToken: process.env.STORYBLOKTOKEN,
       },
     ],
+    '@nuxtjs/tailwindcss'
   ],
+  tailwindcss: {
+    cssPath: ['~/assets/css/tailwind.css', { injectPosition: "first" }],
+    config: {},
+    viewer: true,
+    exposeConfig: false,
+  }
 })
