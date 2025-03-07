@@ -1,3 +1,9 @@
+
+- While build get all stories[https://www.storyblok.com/docs/api/content-delivery/v2/stories/retrieve-multiple-stories], at same time also colloct the nav tree.
+- Use [...slug].vue to catch all routes[https://nuxt.com/docs/guide/directory-structure/pages#dynamic-routes],  dispache each story object to each page(like a SAP).
+- ALL entry of page is a storyblok component, will render automaticly.
+
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
